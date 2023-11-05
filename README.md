@@ -16,9 +16,14 @@ conda activate dual
 ```
 # Download Model Chekpoints
 
+Stable Diffusion checkpoint
 ```
 wget https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
 python split.py
+```
+CLIP image encoder checkpoint
+```
+wget https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt -o /pretrained_models/clip/ViT-B-32.pt
 ```
 
 # Sampling
