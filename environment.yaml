@@ -1,4 +1,4 @@
-name: duak
+name: dual
 channels:
   - pytorch
   - defaults
