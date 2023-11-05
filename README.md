@@ -8,3 +8,9 @@ A dual-guidance approach that leverages the pre-trained cross-modal model Contra
 conda env create -f environment.yaml
 conda activate dual
 ```
+# Download Model Chekpoints
+
+```
+wget https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
+python split.py
+```
