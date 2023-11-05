@@ -1,7 +1,7 @@
 import torch
 import sys
 
-model_path = '/g/data/jr19/hh4436/my/sd-v1-4.ckpt'
+model_path = 'sd-v1-4.ckpt'
 
 state = torch.load(model_path)['state_dict']
 
