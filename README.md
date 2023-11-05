@@ -4,7 +4,13 @@ A dual-guidance approach that leverages the pre-trained cross-modal model Contra
 
 # Install
 
+
+
 ```
+git clone [https://github.com/Jack000/glid-3](https://github.com/dreamhhy/dual_guidance_diffusion
+cd dual_guidance_diffusion
+pip install -e .
+
 conda env create -f environment.yaml
 conda activate dual
 ```
@@ -13,4 +19,10 @@ conda activate dual
 ```
 wget https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
 python split.py
+```
+
+# Sampling
+
+```
+python generate.py
 ```
