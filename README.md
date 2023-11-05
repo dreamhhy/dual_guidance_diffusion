@@ -7,7 +7,7 @@ A dual-guidance approach that leverages the pre-trained cross-modal model Contra
 
 
 ```
-git clone [https://github.com/Jack000/glid-3](https://github.com/dreamhhy/dual_guidance_diffusion
+git clone https://github.com/dreamhhy/dual_guidance_diffusion
 cd dual_guidance_diffusion
 pip install -e .
 
