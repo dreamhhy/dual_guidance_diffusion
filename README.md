@@ -5,7 +5,6 @@ A dual-guidance approach that leverages the pre-trained cross-modal model Contra
 # Install
 
 
-
 ```
 git clone https://github.com/dreamhhy/dual_guidance_diffusion
 cd dual_guidance_diffusion
@@ -14,6 +13,8 @@ pip install -e .
 conda env create -f environment.yaml
 conda activate dual
 ```
+
+
 # Download Model Chekpoints
 
 Stable Diffusion checkpoint
