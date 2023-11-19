@@ -36,5 +36,5 @@ wget https://openaipublic.azureedge.net/clip/models/52378b407f34354e150460fe4107
 # Sampling
 
 ```
-python generate.py
+python generate.py --prompt "A cyberpunk city with high architecture, wide angle, super highly detailed, professional digital painting"
 ```
